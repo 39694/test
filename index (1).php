@@ -6,7 +6,6 @@ $students = [
     ['no' => 3,  'student_id' => 39696, 'prefix' => 'นางสาว', 'firstname' => 'ตัวอย่าง', 'lastname' => 'ข้อมูลสาม', 'classroom' => 'ม.6/1'],
 ];
 
-// ค้นหาข้อมูลของตัวเอง (นางสาวสุวภัทร ปิงเมือง) จาก array ข้างต้น
 $my_info = null;
 foreach ($students as $s) {
     if ($s['firstname'] === 'สุวภัทร' && $s['lastname'] === 'ปิงเมือง') {
@@ -48,8 +47,7 @@ foreach ($students as $s) {
 
     <div class="alert alert-info">
         <i class="fa-solid fa-circle-info me-1"></i>
-        หมายเหตุ: หน้านี้ใช้ข้อมูลตัวอย่าง (sample data) ที่ฝังไว้ในไฟล์ PHP โดยตรง
-        แทนการเชื่อมต่อฐานข้อมูลภายนอก เพื่อให้สามารถรันทดสอบได้ทันที
+       
     </div>
 
     <div class="card shadow-sm">
